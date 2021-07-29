@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { cx, css } from 'emotion';
 
+// Dependency: https://github.com/ghosh/microtip
+
 const wrapChild = props => {
   const child = React.Children.only(props.children);
   return React.cloneElement(child, {
